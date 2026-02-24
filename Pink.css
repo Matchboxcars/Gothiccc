@@ -55,7 +55,7 @@ body {
 
 .navbar {
 	background: rgba(25, 25, 30, 0.9);
-	border-bottom: 1px solid #ff8fcf;
+	border-bottom: 1px solid #ff6fa5;
 	color: #ffffff;
 	border-radius: 0px
 }
@@ -64,14 +64,14 @@ body {
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #ffb3e6 !important
+	color: #ffc1dc !important
 }
 
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(255, 143, 207, 0.4) !important;
+	background: rgba(255, 111, 165, 0.35) !important;
 	border-bottom: none;
 	color: #ffffff !important;
 	border-radius: 0px
@@ -98,7 +98,7 @@ body {
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #ff8fcf;
+        color: #ff6fa5;
         position: absolute;
         right: 13%;
         z-index: 100
@@ -109,7 +109,7 @@ body {
 
 input.floatright, input.floatright:hover {
 	background: rgba(40, 40, 45, 0.85) !important;
-        border: 1px solid #ff8fcf !important;
+        border: 1px solid #ff6fa5 !important;
 	border-radius: 0px;
 	color: #ffffff !important;    
 }
@@ -119,7 +119,7 @@ input.floatright, input.floatright:hover {
 
 button.button, button.button:hover {
 	background: rgba(45, 45, 50, 0.9);
-        border: 1px solid #999999 !important;
+        border: 1px solid #ff85b8 !important;
 	border-radius: 0px;
         text-shadow: none !important;
 	color: #ffffff !important
@@ -131,8 +131,8 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(50, 30, 45, 0.85) !important;
-	border: 1px solid #ff69b4;
+	background: rgba(60, 30, 45, 0.85) !important;
+	border: 1px solid #ff4f93;
 	color: #ffffff;
 	border-radius: 0px !important
 }
@@ -151,7 +151,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #ffb3e6;
+	color: #ff85b8;
 	font-size: 24px;
 	text-align: center
 }
@@ -168,7 +168,7 @@ h3 {
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #ff8fcf !important;
+	color: #ff6fa5 !important;
         font-size: 26px !important;
         font-family: 'Cinzel', serif
 }
@@ -178,7 +178,7 @@ h3 {
 .panel {
 	background: rgba(30, 30, 35, 0.85) !important;
 	box-shadow: none !important;
-	border: 1px solid #999999 !important;
+	border: 1px solid #ffc1dc !important;
 	color: #ffffff !important;
 	border-radius: 0px
 }
@@ -193,7 +193,7 @@ h3 {
 }
 
 .progress-bar {
-	background: #ff69b4;
+	background: #ff4f93;
 	color: #ffffff !important;
 	border-radius: 0px !important
 }
@@ -210,11 +210,11 @@ h3 {
 .s-chat-message__pinned {
 	background: rgba(25, 25, 30, 0.85) !important;
         color: #ffffff !important;
-	border: 1px solid #999999 !important
+	border: 1px solid #ffc1dc !important
 }
 
 .s-chat-message_timestamp {
-	color: #ff8fcf !important;
+	color: #ff6fa5 !important;
 }
 
 
@@ -236,7 +236,7 @@ th {
 /* INNER TABLE LEFT */
 
 .inner-table .left {
-	background: rgba(255, 143, 207, 0.5) !important;
+	background: rgba(255, 133, 184, 0.45) !important;
         color: #ffffff;
 }
 
@@ -245,11 +245,11 @@ th {
 
 a:link,
 a:visited {
-	color: #ffb3e6 !important
+	color: #ffc1dc !important
 }
 
 a:hover {
-	color: #ffffff !important
+	color: #ff4f93 !important
 }
 
 
