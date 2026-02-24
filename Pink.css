@@ -1,0 +1,293 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+
+/* BACKGROUND */
+
+body {
+	background: url('https://i.pinimg.com/1200x/31/81/86/318186d19678174873594e3163f60385.jpg') center center fixed;
+	background-size: cover;
+	font-family: 'Cinzel', serif;
+	color: #f5f5f5
+}
+
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(20, 20, 25, 0.75);
+	border: none;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+
+/* TOPBAR */
+
+.topbar {
+	background: rgba(35, 35, 40, 0.85);
+	border: none;
+	border-top: none;
+	color: #ffffff;
+	border-radius: 0px;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+	background: rgba(25, 25, 30, 0.9);
+	border-bottom: 1px solid #ff8fcf;
+	color: #ffffff;
+	border-radius: 0px
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #ffb3e6 !important
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgba(255, 143, 207, 0.4) !important;
+	border-bottom: none;
+	color: #ffffff !important;
+	border-radius: 0px
+}
+
+
+/* BREADCRUMB */
+
+.breadcrumb {
+	background: rgba(30, 30, 35, 0.85) !important;
+        border: none;
+	border-radius: 0px
+}
+
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #ffffff
+}
+
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445)";
+        color: #ff8fcf;
+        position: absolute;
+        right: 13%;
+        z-index: 100
+    }
+
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: rgba(40, 40, 45, 0.85) !important;
+        border: 1px solid #ff8fcf !important;
+	border-radius: 0px;
+	color: #ffffff !important;    
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: rgba(45, 45, 50, 0.9);
+        border: 1px solid #999999 !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #ffffff !important
+}
+
+
+/* ALERTS */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(50, 30, 45, 0.85) !important;
+	border: 1px solid #ff69b4;
+	color: #ffffff;
+	border-radius: 0px !important
+}
+
+
+/* BIGGEST HEADER */
+
+h1 {
+	color: #ffffff;
+	font-size: 90px;
+	text-align: center;
+        font-family: 'Cinzel', serif
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #ffb3e6;
+	font-size: 24px;
+	text-align: center
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #ffffff !important;
+	font-size: 14px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #ff8fcf !important;
+        font-size: 26px !important;
+        font-family: 'Cinzel', serif
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(30, 30, 35, 0.85) !important;
+	box-shadow: none !important;
+	border: 1px solid #999999 !important;
+	color: #ffffff !important;
+	border-radius: 0px
+}
+
+
+/* ENERGY BAR */
+
+.progress {
+	background: rgba(40, 40, 45, 0.85);
+	color: #ffffff !important;
+	border-radius: 0px !important
+}
+
+.progress-bar {
+	background: #ff69b4;
+	color: #ffffff !important;
+	border-radius: 0px !important
+}
+
+.progress div {
+	color: #ffffff !important
+}
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd),
+.s-chat-message__pinned {
+	background: rgba(25, 25, 30, 0.85) !important;
+        color: #ffffff !important;
+	border: 1px solid #999999 !important
+}
+
+.s-chat-message_timestamp {
+	color: #ff8fcf !important;
+}
+
+
+/* TABLE */
+
+.table {
+	background: rgba(30, 30, 35, 0.85);
+	border: none !important;
+}
+
+.top,
+.bottom,
+th {
+	background: rgba(40, 40, 45, 0.9) !important;
+	color: #ffffff !important;
+}
+
+
+/* INNER TABLE LEFT */
+
+.inner-table .left {
+	background: rgba(255, 143, 207, 0.5) !important;
+        color: #ffffff;
+}
+
+
+/* LINKS */
+
+a:link,
+a:visited {
+	color: #ffb3e6 !important
+}
+
+a:hover {
+	color: #ffffff !important
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 12px
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://www.cursor.cc/cursor/220/26/cursor.png')
+}
+
+
+/* CAVE / MOUND IMAGES */
+
+div.cave-grid>img,
+a[href$="CAVE ID"]>div.cave-grid>img,
+a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img,
+a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/1200x/54/69/54/546954b41dd80bdb476ba7f08b161316.jpg') !important
+}
+
+.mound-grid img {
+	background: url("https://i.pinimg.com/1200x/54/69/54/546954b41dd80bdb476ba7f08b161316.jpg");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
